@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(227, 214, 214);
+    padding: 100px;
+}
+main{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+img{
+    width: 120px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+#part1{
+    border-left: 50px solid rgb(56, 13, 56);
+    width: 40%;
+    border-radius: 20px 0 0 20px;
+    padding: 30px;
+    background-color: rgb(220, 220, 220);
+}
+h1{
+    color: rgb(56, 13, 56);
+    font-size: 20px;
+}
+h2{
+    color: rgb(56, 13, 56);
+    font-size: 21px;
+    font-weight: 500;
+    margin: 10px 0 30px;
+}
+h3{
+    color: rgb(56, 13, 56);
+    font-weight: 500;
+}
+#part1 ul{
+    padding: 20px;
+    border-top: 1px solid  rgb(56, 13, 56);
+}
+li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+
+
+
+#part2{
+    width: 60%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+}
+#part2 p{
+    border-top: 1px solid  rgb(56, 13, 56);
+    padding: 20px 0;
+    line-height: 1.8;
+}
+table{
+    border-top: 1px solid  rgb(56, 13, 56);
+}
+td{
+    padding: 10px;
+}
+td:first-child{
+    width: 150px;
+}
+.skills ul{
+    padding: 20px ;
+    border-top: 1px solid  rgb(56, 13, 56);
+}
+
+h4{
+    margin-bottom: 20px;
+}
