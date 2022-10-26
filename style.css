@@ -44,7 +44,7 @@ h3{
     font-weight: 500;
 }
 #part1 ul{
-    padding: 20px;
+    padding: 20px 0;
     border-top: 1px solid  rgb(56, 13, 56);
 }
 li{
@@ -89,4 +89,13 @@ td:first-child{
 
 h4{
     margin-bottom: 20px;
+}
+@media print {
+    main {
+      width: 115%;
+      margin-left: -60px;
+    }
+    body{
+        padding: 0;
+    }
 }
